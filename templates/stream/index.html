@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ポンプ操作</title>
+    <link rel="stylesheet" href="{% static 'stream/style.css' %}">
+    
+</head>
+<body>
+    <div>
+        <div id="image_area">
+            <img src="/video_feed" width="810" height="540"/>
+        </div>
+    </div>
+<div style="width:80%;">
+    <div class="img">
+	<img src="{% static 'stream/img1.jpg' %}">
+    </div>
+	<div style="text-align:center"><h4>{{ date }}</h4></div>
+     
+         
+      
+    <div class="but">
+      <div class="pbs">      
+        <a href="/shot/">撮影</a>  
+      </div>
+    </div>
+</div>      
+</body>
+
+      
+</html> 
+
+
+
+
+
